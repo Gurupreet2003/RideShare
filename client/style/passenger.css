@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+
+.notification-bar {
+  position: absolute;
+  top: 10px;
+  display: flex;
+  width: 80vw;
+  height: 60px;
+  padding: 6px 15px;
+  background: #000000a6;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 20px;
+  font-family: "poppins", serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.enex-pool-contianer {
+  position: absolute;
+  bottom: 15px;
+}
+
+.enex-pool-btn {
+  font-family: 'Poppins', serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #fff;
+  padding: 10px 75px;
+  border: none;
+  border-radius: 5px;
+  background: #008000b5;
+  cursor: pointer;
+}

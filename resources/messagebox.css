@@ -1,0 +1,46 @@
+.msg-box-container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.msg-box {
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.msg-box .title-bar {
+  background: #fdffae;
+  width: 100%;
+  text-align: center;
+  font-family: 'Poppins', serif;
+  font-size: 16px;
+}
+
+.msg-box .msg-box-body {
+  background: #fff;
+  width: 100%;
+  height: 90%;
+  font-family: 'Poppins';
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.msg-box button {
+  padding: 4px 35px;
+  border: solid 1px #666;
+  border-radius: 5px;
+}

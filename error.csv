@@ -1,0 +1,10 @@
+CODE, ERROR_MESSAGE
+100, Registration failed
+101, no username or password provided
+102, wrong username format
+103, wrong password format
+104, error preparing statement
+105, other credential exceeded length or of invalid format
+106, username already exsist
+107, invalid credentials
+108, login first before using application

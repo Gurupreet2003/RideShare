@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background: url("../../resources/background_index_pc.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  background: #fff;
+  width: 80vw;
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-text {
+  font-family: "Dancing Script", serif;
+  font-size: 34px;
+  font-weight: bolder;
+  color: #000;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+form label {
+  font-family: "poppins", serif;
+  font-size: 14px;
+  color: #000;
+}
+
+form label::after {
+  content: ":";
+}
+
+form input {
+  font-family: "poppins", serif;
+  font-size: 14px;
+  color: #000;
+  background-color: #fff;
+  padding: 2px 5px;
+  border: solid 1px #444444;
+  border-radius: 5px;
+  user-select: none;
+}
+
+form button {
+  background: url("../../resources/button_background.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "poppins", serif;
+  font-size: 14px;
+  color: #fff;
+  padding: 5px 25px;
+  border: solid 2px #ff00c888;
+  border-radius: 5px;
+  margin-inline: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+  main {
+    background: url("../../resources/background_index_mobile.jpeg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+  }
+
+  .main-btn {
+    padding: 4px 45px;
+  }
+}

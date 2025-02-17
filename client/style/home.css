@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: url("../../resources/background_index_pc.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background: #fff;
+  width: 80vw;
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-family: "Dancing Script", serif;
+  font-size: 34px;
+  font-weight: bolder;
+  color: #000;
+}
+
+.main-btn {
+  background: url("../../resources/button_background.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "poppins", serif;
+  font-size: 14px;
+  color: #fff;
+  height: 40px;
+  width: 140px;
+  border: solid 2px #ff00c888;
+  border-radius: 5px;
+  margin-inline: 10px;
+  cursor: pointer;
+}
+
+.logout-btn {
+  padding: 3px 25px;
+  background: #fff;
+  border: solid 1px #e72547;
+  border-radius: 5px;
+  font-family: "poppins", serif;
+  font-size: 13px;
+  color: #e72547;
+  cursor: pointer;
+  transition: background-color, color ease-out 300ms;
+}
+
+.logout-btn:hover {
+  background-color: #e72547;
+  color: #fff;
+}
